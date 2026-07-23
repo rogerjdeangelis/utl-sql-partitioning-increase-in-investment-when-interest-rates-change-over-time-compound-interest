@@ -1,0 +1,6 @@
+
+  Obs   CD  CURRENT_YEAR  RETURN
+-----  ---  ------------  ------
+    1  BNY          1981    1.32
+    2  FDU          1981    1.95
+
