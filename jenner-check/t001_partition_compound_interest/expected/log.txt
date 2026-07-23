@@ -1,0 +1,18 @@
+NOTE: Option OBS changed to 100.
+NOTE: Option VALIDVARNAME changed to UPCASE.
+NOTE: DATA have
+
+NOTE: Processing inline DATALINES (4 lines)
+
+NOTE: Read 4 rows from DATALINES.
+NOTE: Wrote have (4 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SQL 
+
+NOTE: Table want created.
+NOTE: PROC SQL statement used.
+NOTE: PROC PRINT data=want
+
+NOTE: PROC PRINT completed: 2 observations printed, 3 variables

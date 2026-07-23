@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_partition_compound_interest",
+  "source_file": "utl-sql-partitioning-increase-in-investment-when-interest-rates-change-over-time-compound-interest.sas",
+  "source_blob_sha": "5fd78a1402b2d6a3314e0eadf5ba38d0e14ab500",
+  "source_commit": "d85db4cb80803501477af59c5e409d49175abca5",
+  "notes": "Repo's SQL-partitioning compound-interest solution. Data step (BNY/FDU CD/RATE/YEAR) and the PROC SQL join with (1+l.rate)*(1+r.rate) as return are the author's own. libname sd1 'd:/sd1' redirected to WORK so the data step is self-contained. Partition expressed via row_number() OVER (PARTITION BY cd) — the exact window SQL the author wrote in this file's R and Python solutions — in place of the repo's %sqlPartition macro (defined in a sibling repo and using WPS-only monotonic()/lenient GROUP BY that standard PROC SQL rejects). Output matches the repo's documented result: BNY 1981 1.32, FDU 1981 1.95."
+}
